@@ -1,0 +1,30 @@
+#pacman:hover {
+    animation: 3s linear chomp;
+}
+
+@keyframes chomp {
+    0% {
+        #layer1 {
+            opacity: 0;
+        }
+    }
+
+    25% {
+        #layer2 {
+            opacity: 0;
+        }
+    }
+
+    50% {
+        #layer3 {
+            opacity: 0;
+        }
+    }
+
+    75% {
+        #layer4 {
+            opacity: 0;
+        }
+    }
+
+}
