@@ -1,3 +1,10 @@
+.standard {
+    fill: #ffff00;
+    fill-opacity: 1;
+    stroke: #0071ac;
+    stroke-width: 0.710226;
+}
+
 #pacman {
     animation: 3s linear chomp;
 }
