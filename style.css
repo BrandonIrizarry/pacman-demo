@@ -5,33 +5,30 @@
     stroke-width: 0.710226;
 }
 
-#pacman {
-    animation: 3s linear chomp;
+#all-open {
+    animation: 3s linear infinite leave;
 }
 
-@keyframes chomp {
-    0% {
-        #all-open > * {
-            opacity: 0;
-        }
+#smaller {
+    animation: 3s linear infinite enter;
+}
+
+@keyframes leave {
+    from {
+        opacity: 1;
     }
 
-    25% {
-        #smaller > * {
-            opacity: 0;
-        }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes enter {
+    from {
+        opacity: 0;
     }
 
-    50% {
-        #smallest > * {
-            opacity: 0;
-        }
+    to {
+        opacity: 1;
     }
-
-    75% {
-        #closed > * {
-            opacity: 0;
-        }
-    }
-
 }
