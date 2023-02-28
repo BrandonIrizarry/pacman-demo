@@ -1,6 +1,6 @@
 :root {
     --animation-style: ease-in-out;
-    --animation-duration: 1s
+    --animation-duration: 0.5s
 }
 
 .standard {
@@ -44,4 +44,12 @@
     100% {
         opacity: 1;
     }
+}
+
+.board {
+    position: relative;
+}
+
+svg.pacman {
+    position: absolute;
 }
