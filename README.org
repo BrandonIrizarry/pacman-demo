@@ -1,0 +1,8 @@
+* Description
+A simple demo of an SVG chomping-pacman.
+
+It's by no means a full-fledged game, but I've saved this repo on
+GitHub in case I later decide to make a game out of it.
+
+[[https://www.includehelp.com/code-snippets/move-object-with-arrow-keys-using-javascript-function.aspx][This site]] helped me iron out a subtlety with moving objects with the
+keyboard using JavaScript.
