@@ -3,6 +3,11 @@
     --animation-duration: 0.5s
 }
 
+/* resets */
+body {
+    margin: 0;
+}
+
 .standard {
     fill: #ffff00;
     fill-opacity: 1;
@@ -48,6 +53,7 @@
 
 .board {
     position: relative;
+    height: 300px;
 }
 
 svg.pacman {
